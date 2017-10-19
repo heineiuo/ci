@@ -1,2 +1,9 @@
 node_modules
-.DS_Store
+*.log*
+*.env
+packages/**/*.js
+packages/**/*.html
+!packages/*/src/**/*.js
+build/**/*
+!build/.gitkeep
+.youkuohao

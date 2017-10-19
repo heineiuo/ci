@@ -1,0 +1,9 @@
+cms:
+  image: heineiuo/cis
+  ports:
+    - "8050:8050"
+  volumes:
+    - /Users/heineiuo/.cis:/root/.cis
+  restart: always
+  environment:
+    - NODE_ENV=production
